@@ -1,0 +1,20 @@
+// functional
+- user can create update tasks and delete
+- task has a title desc,priority(low,med,high) 
+status (todo,done,inprogres)
+- user can list all the tasks
+- notification are sent when task is assigned or its status changed
+
+// nonfunc
+
+consistency - task state should be thread safe
+extentibility - can add easily new features
+concurency-  it should be concurrent for multitask
+sepration  - clean folders files - srrvices , repo,model
+
+// entity
+task
+task status and priority
+user
+notification service
+inmemorytask repo

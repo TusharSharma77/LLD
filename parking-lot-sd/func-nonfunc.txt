@@ -1,0 +1,25 @@
+//func
+-it should support multiple parking floors
+-each floor should have multiple parking spots
+- diff types of vehicle support
+-each spot have specific vehicle support
+- on entry allocate nearest avaialble spot and generate ticket
+- on exit calcualte parking fee and free the spot
+
+
+
+// non-func
+- thread safe
+- extisnible
+- maintaimable
+- clean oop design
+
+
+// entity
+vehicle
+vehicle types
+parking spot
+parking lot
+ticket
+pricing strategy
+praking floor

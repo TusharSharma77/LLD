@@ -1,0 +1,23 @@
+ 
+ functional requirements
+- create a topic (topics are named channels)
+- subscribe to topic
+-unsuscribe a system
+- publish a message
+- multiple subscriber per topic
+
+
+nonfunctional 
+- decoupling -> pubklishers must not know about subscriber
+- thread safetty -> multiple threads publchsing/subscribing concurrentlly must not corrupt state
+- extensibility -> easy to plug in filters async deliver
+- reliable -> isolation guarntee 
+- available -> it must deliver to all active subscibers
+
+
+entity->
+- message (topic,data,payload,timestamp)
+- subscriber
+- topics (list of subs and how to notify them )
+- messagebroker - central registry
+- pubklishers

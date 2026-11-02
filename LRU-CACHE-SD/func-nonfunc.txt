@@ -1,0 +1,16 @@
+
+func->
+- put(key,value) : add a new key value pair if exists update it and mark it as most recently used
+- elimination : if the cache reaches its must remove the least recently used item
+- get(key) : retrieve the value associated with the key and mark it most lru
+
+
+nonfunc->
+-both operation run in O(n) time
+- thread safety 
+- consistent
+
+
+entity
+NODE<K,V>
+DOUBLYLINKEDLIST<K,V>

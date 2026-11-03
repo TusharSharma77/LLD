@@ -1,0 +1,15 @@
+
+
+func =->
+users can view cities,cinemas,movies,shows
+user can select multiple seats and for specific row
+when a user select seat and proceed to payment the seats must be temproaliy locked
+ticket price vary by seat type and dynamic factyors
+
+
+nonfunc->
+thousands of users might try to book same seat so it shpuld be thread safety
+booking transaction should be atomic
+extensibility
+
+

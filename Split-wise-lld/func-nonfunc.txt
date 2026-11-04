@@ -1,0 +1,9 @@
+
+functional ->
+user should be able to create group
+user should be able to create or be part of a group of an expense and other group membera are involved
+to add an expense, we might equally split the expense among all, or there can be a percentage based split
+users are able to see the transaction required to be done for settling up a group
+support for history
+support for adding or removing users from group
+users should be able to get all their expenses

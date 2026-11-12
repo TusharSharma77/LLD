@@ -1,0 +1,39 @@
+func->
+- the system supports multiple payments methods including credit card, and upi
+- if processing fails the system retries the request up to maximum number of times
+- the system processes the req using approapiate payment processor
+- idemponet
+
+
+non func ->
+the design should follow oops principle
+the system should be testable, extensible and simulate real world payment flows
+
+
+
+
+entity->
+payment-method ->
+upi,creditcard,paypal
+
+paymentstatus-> 
+initiated,pending, success,failed
+
+
+transaction->
+id
+paymentmode
+paymentrequest
+amount
+paymentstatus
+timestamp
+method
+transitionto
+
+paymentrequest->
+idemponetcy key
+payid
+amount
+paymentmode
+paymemtdetails
+
